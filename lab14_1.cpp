@@ -20,7 +20,7 @@ int main(){
 
 void stat(const double A[],int N, double B[6]){
     
-    double max = A[0], min = A[0];
+    double max = A[0], min = A[0]; // start with first array is the savest way for max and min.
     double sum1 = 0, sum2 = 0, sum3 = 0, sum4 = 1.0;
 
     for(int i = 0; i < N; i++ ){
